@@ -1,0 +1,15 @@
+.caja1{
+    margin-bottom: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.caja1 input{
+    margin-bottom: 0px;
+    padding: 1px;
+}
+.caja1 button{
+    padding: 10px;
+    border: 0px;
+    box-shadow: 6px 6px black ;
+}
