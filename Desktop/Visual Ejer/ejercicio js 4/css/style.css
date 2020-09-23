@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja1{
+    margin-bottom: 30px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+}
+.caja1 input{
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 4px solid black;
+    width: 150px;
+}
+.caja1 button{
+    padding: 10px;
+    box-shadow: 5px 5px  black;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 79px;
+}
