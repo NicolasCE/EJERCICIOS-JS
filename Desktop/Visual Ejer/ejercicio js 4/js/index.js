@@ -1,4 +1,5 @@
 var cal1 = document.getElementById("btsum");
+var cal2 = document.getElementById("btprom");
 
 cal1.addEventListener("click", () => {
     var not1 = document.getElementById("n1");
@@ -13,5 +14,15 @@ cal1.addEventListener("click", () => {
     }else{
         res.style.color = "green";
         res.innerHTML = "La suma es: " + suma;
+    } 
+cal2.addEventListener("click", () => {
+    var promedio = suma / 3;
+    var res = document.getElementById("res2");
+    if(promedio > 4 && promedio <7){
+        res.style.color = "green";
+        res.innerText = "Aprobado";
+    }else if (promedio < 4){
+        res.style.color = "red";
+        res.innerText = "Reprobado";
     }
 });
