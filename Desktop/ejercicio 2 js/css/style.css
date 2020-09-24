@@ -1,0 +1,17 @@
+body{
+    background: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.caja{
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.caja input{
+    margin-bottom: 0px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 150px;
+}
